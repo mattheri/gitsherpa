@@ -17,7 +17,7 @@ const Navbar: FC = () => {
   return (
     <Flex as="header" justifyContent="center" padding={2}>
       <Box flexGrow={1}>
-        <IconButton
+        {/* <IconButton
           icon={<MdMenu />}
           aria-label="Open menu"
           ref={buttonRef}
@@ -28,7 +28,7 @@ const Navbar: FC = () => {
           onClose={onClose}
           onOpen={onOpen}
           ref={buttonRef}
-        />
+        /> */}
       </Box>
       <Container as="nav"></Container>
       <Flex flexGrow={1} justifyContent="flex-end">

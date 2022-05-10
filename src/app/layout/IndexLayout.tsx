@@ -1,4 +1,4 @@
-import { Box, Container, Grid } from "@chakra-ui/react";
+import { Box, Container, Flex, Grid } from "@chakra-ui/react";
 import Info from "app/components/Info/Info";
 import { FC, useEffect, useState } from "react";
 import useSherpa from "app/hooks/UseSherpa";
@@ -47,10 +47,9 @@ const IndexLayout: FC = () => {
   }, []);
 
   return (
-    <Grid gridTemplateColumns="1fr 1fr 1fr">
-      <Box gridColumn={1}></Box>
-      <Box gridColumn={2}>
-        <Container>
+    <Flex wrap="wrap">
+      <Box w="100%" flexGrow={1}>
+        <Container paddingInlineStart={[0, 0, 2]} paddingInlineEnd={[0, 0, 2]}>
           <CurrentBranch />
           <Step
             currentStep={newStep || BranchStatus.START}
@@ -65,10 +64,10 @@ const IndexLayout: FC = () => {
           />
         </Container>
       </Box>
-      <Box gridColumn={3}>
+      <Box flexGrow={1} pt={4}>
         <Info currentBranchStatus={newStep} />
       </Box>
-    </Grid>
+    </Flex>
   );
 };
 
