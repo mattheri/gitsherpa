@@ -2,7 +2,7 @@ import { Box, Code } from "@chakra-ui/react";
 import { BranchStatus } from "app/app";
 import useCurrentBranch from "app/hooks/UseCurrentBranch";
 import { FC } from "react";
-import StartBranch from "../StartBranch/StartBranch";
+import StartBranch from "./StartBranch";
 
 interface Props {
   currentStep: string;

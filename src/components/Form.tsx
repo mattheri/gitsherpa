@@ -1,5 +1,5 @@
-import Input from "components/Inputs/input/Input";
-import Select from "components/Inputs/select/Select";
+import Input from "components/Inputs/Input";
+import Select from "components/Inputs/Select";
 import { Form as FormikForm, Formik, FormikHelpers } from "formik";
 import * as Yup from "yup";
 import { Box } from "@chakra-ui/react";

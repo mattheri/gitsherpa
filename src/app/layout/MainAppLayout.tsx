@@ -1,6 +1,6 @@
 import { Flex } from "@chakra-ui/react";
-import Navbar from "app/components/Navbar/Navbar";
-import Main from "components/Main/Main";
+import Navbar from "app/components/Navbar";
+import Main from "components/Main";
 import { FC } from "react";
 import { Outlet } from "react-router-dom";
 

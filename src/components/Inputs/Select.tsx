@@ -1,7 +1,7 @@
 import { FC, SelectHTMLAttributes } from "react";
 import { Select as ChakraSelect, FormControl, As } from "@chakra-ui/react";
 import { useField } from "formik";
-import FormMessage from "../form-message/FormMessage";
+import FormMessage from "./FormMessage";
 
 interface SelectOption {
   value: string;

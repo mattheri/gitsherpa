@@ -4,7 +4,7 @@ import MainAppLayout from "app/layout/MainAppLayout";
 import ProtectedAuthLayout from "auth/layout/ProtectedAuthLayout";
 import SignInLayout from "auth/layout/SignInLayout";
 import SignUpLayout from "auth/layout/SignUpLayout";
-import AppLayout from "components/AppLayout/AppLayout";
+import AppLayout from "components/AppLayout";
 import { Provider } from "react-redux";
 import { Route, Routes } from "react-router-dom";
 import routes from "router/routes";

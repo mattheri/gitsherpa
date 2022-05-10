@@ -1,6 +1,6 @@
 import { Button, VStack } from "@chakra-ui/react";
 import useLocalSignUp from "auth/hooks/UseLocalSignUp";
-import Form from "components/Form/Form";
+import Form from "components/Form";
 import { FormikHelpers } from "formik";
 import { FC } from "react";
 import * as Yup from "yup";

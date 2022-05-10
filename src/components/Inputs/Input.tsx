@@ -1,8 +1,8 @@
 import { FC, InputHTMLAttributes } from "react";
 import { Input as ChakraInput, FormControl, As } from "@chakra-ui/react";
 import { useField } from "formik";
-import FormMessage from "../form-message/FormMessage";
-import NumberInput from "../number/Number";
+import FormMessage from "./FormMessage";
+import NumberInput from "./Number";
 
 interface Props extends Omit<InputHTMLAttributes<HTMLInputElement>, "size"> {
   name: string;

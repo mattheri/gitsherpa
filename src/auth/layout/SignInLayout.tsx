@@ -1,6 +1,6 @@
 import { Container, Divider, Grid, VStack } from "@chakra-ui/react";
-import EmailSignInForm from "auth/components/EmailSignInForm/EmailSignInForm";
-import GoogleSignInForm from "auth/components/GoogleSignInForm/GoogleSignInForm";
+import EmailSignInForm from "auth/components/EmailSignInForm";
+import GoogleSignInForm from "auth/components/GoogleSignInForm";
 import GoToSignup from "auth/components/GoToSignup";
 import useAddUserOnAuth from "auth/hooks/UseAddUserOnAuth";
 import { FC } from "react";

@@ -5,15 +5,10 @@ import {
   IconButton,
   useDisclosure,
 } from "@chakra-ui/react";
-import { ColorModeSwitcher } from "components/ColorModeSwitcher/ColorModeSwitcher";
-import { FC, useRef } from "react";
-import { MdMenu } from "react-icons/md";
-import Sidebar from "../Sidebar/Sidebar";
+import { ColorModeSwitcher } from "components/ColorModeSwitcher";
+import { FC } from "react";
 
 const Navbar: FC = () => {
-  const { isOpen, onClose, onOpen } = useDisclosure();
-  const buttonRef = useRef<HTMLButtonElement>(null);
-
   return (
     <Flex as="header" justifyContent="center" padding={2}>
       <Box flexGrow={1}>

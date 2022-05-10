@@ -2,7 +2,7 @@ import { Box, Container, Flex, Grid } from "@chakra-ui/react";
 import Info from "app/components/Info/Info";
 import { FC, useEffect, useState } from "react";
 import useSherpa from "app/hooks/UseSherpa";
-import Step from "app/components/Step/Step";
+import Step from "app/components/Step";
 import { BranchStatus } from "app/app";
 import useSherpaReset from "app/hooks/UseSherpaReset";
 import CurrentBranch from "app/components/CurrentBranch";

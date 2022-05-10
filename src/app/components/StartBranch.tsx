@@ -1,5 +1,5 @@
 import { Box, Button, Code, Flex, VStack } from "@chakra-ui/react";
-import Form from "components/Form/Form";
+import Form from "components/Form";
 import { FC } from "react";
 import useAppDispatch from "store/hooks/UseAppDispatch";
 import { setCurrentBranch } from "app/appSlice";
